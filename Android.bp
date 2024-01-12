@@ -30,6 +30,9 @@ cc_defaults {
 //        "-DBOOST_THREAD_POSIX",
         "-DBOOST_ASIO_HAS_STD_STRING_VIEW",
     ],
+    cppflags: [
+        "-std=c++17",
+    ],
 }
 
 cc_library_headers {
