@@ -25,6 +25,7 @@ cc_defaults {
     cflags: [
         "-Wall",
         "-Werror",
+        "-Wno-enum-constexpr-conversion",
         "-fexceptions",
 //        "-DBOOST_THREAD_DONT_USE_CHRONO",
 //        "-DBOOST_THREAD_POSIX",
