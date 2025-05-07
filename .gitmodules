@@ -193,11 +193,6 @@
 	url = ../lambda.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
-[submodule "mpl"]
-	path = libs/mpl
-	url = ../mpl.git
-	fetchRecurseSubmodules = on-demand
-	branch = .
 [submodule "typeof"]
 	path = libs/typeof
 	url = ../typeof.git

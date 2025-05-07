@@ -257,7 +257,6 @@ cc_library {
         "-Wno-implicit-fallthrough",
         "-Wno-non-virtual-dtor",
         "-Wno-unused-parameter",
-        "-Wno-enum-constexpr-conversion",
     ],
 
     header_libs: [
@@ -366,7 +365,6 @@ cc_library {
     //FIXME: build workaround
     cflags: [
         "-Wno-non-virtual-dtor",
-        "-Wno-enum-constexpr-conversion",
     ],
 
     header_libs: [
