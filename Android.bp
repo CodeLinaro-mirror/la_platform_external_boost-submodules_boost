@@ -22,6 +22,8 @@ cc_defaults {
 
     rtti: true,
 
+    system_ext_specific: true,
+
     cflags: [
         "-Wall",
         "-Werror",
