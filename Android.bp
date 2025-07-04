@@ -1,6 +1,6 @@
 cc_defaults {
     name: "boost_defaults",
-    vendor_available: true,
+    vendor: true,
     target: {
         android: {
         enabled: true,
@@ -19,9 +19,7 @@ cc_defaults {
 cc_defaults {
     name: "boost_library_defaults",
     defaults: ["boost_defaults"],
-
     rtti: true,
-
     cflags: [
         "-Wall",
         "-Werror",
