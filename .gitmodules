@@ -163,11 +163,6 @@
 	url = ../test.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
-[submodule "date_time"]
-	path = libs/date_time
-	url = ../date_time.git
-	fetchRecurseSubmodules = on-demand
-	branch = .
 [submodule "logic"]
 	path = libs/logic
 	url = ../logic.git
