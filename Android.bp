@@ -199,6 +199,10 @@ cc_library {
     name: "libboost_date_time",
     defaults: ["boost_library_defaults"],
 
+    cflags: [
+        "-fstack-protector-all",
+    ],
+
     header_libs: [
         "libboost_headers",
     ],
@@ -340,6 +344,10 @@ cc_library {
 cc_library {
     name: "libboost_system",
     defaults: ["boost_library_defaults"],
+
+    cflags: [
+        "-fstack-protector-all",
+    ],
 
     header_libs: [
         "libboost_headers",
